@@ -26,3 +26,10 @@ class Stack(object):
             return 'Empty Stack'
         # O(1) for list pop
         return self.stack.pop()
+
+if __name__ == "__main__":
+    # To init stack on run
+    stack = Stack()
+    stack.push("First")
+    stack.push("Second")
+    stack.push("Third")
